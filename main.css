@@ -1,0 +1,132 @@
+p{
+color:blue;
+font-size:30px;
+}
+			
+li{
+color:red;			
+font-size:15px;	
+}
+
+.paragraph{
+	color:black;
+	font-size:20px;
+}
+
+#button{
+	width:300px;
+	height:150px;
+	color:red;
+	background-color:blue;
+	border-radius:15px;
+}
+
+header{
+	width:150px;
+	height:25px;
+	border:2px solid black;
+	background-color:#33ccff;
+	margin-bottom:30px;
+}
+
+
+footer{
+	width:150px;
+	height:25px;
+	border:2px solid black;
+	background-color:#33ccff;
+}
+
+.wrap-question{
+	height:350px;
+	width:300px;
+	border:10px double red;
+}
+
+.wrap-list{
+	height:350px;
+	width:300px;
+	border:10px double purple;
+}
+
+.wrap-text{
+	color:purple;
+	font-size:20px;
+	font:Times;
+}
+
+.video{
+	margin:10px, 5px, 10px, 5px;
+}
+
+.navitem{
+	list-style-type: none;
+	display: inline;
+	padding-right: 1.5em;
+
+
+}
+
+.navitem:link{
+	color:blue;
+}
+
+.navitem:visited{
+	color:purple;
+}
+
+.navitem:hover{
+	color:red;
+}
+
+.navitem:active{
+	color:black;
+}
+
+#navmenu{
+	width: 400px;
+	height: 40px;
+}
+
+#one{
+	height: 150px;
+	width: 150px;
+	background-color: red;
+	display: inline-block;
+	position:fixed;
+	position:absolute;
+	left:25%;
+	z-index:1;
+}
+
+#two{
+	height: 150px;
+	width: 150px;
+	background-color: blue;
+	display: inline-block;
+	position:absolute;
+	z-index:2;
+}
+
+#three{
+	height: 150px;
+	width: 150px;
+	background-color: white;
+	display: inline-block;
+	position:relative;
+	top:750px;
+}
+
+#body{
+	height:2048px;
+	position:center;
+}
+
+#right{
+	float:right;
+	width:40%;
+}
+
+#left{
+	width:60%;
+}
